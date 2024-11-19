@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Skills</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="skills">
+        <header>
+                
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav" style="margin-left: 136%;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="skills.html" style="color:rgb(160, 79, 140); background-color: rgb(151, 180, 213);">skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="work.html">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resume
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="asserts/GRANDHI VANITHA RESUMEE.pdf" target="_blank"><i class="fa-solid fa-eye"></i> View</a></li>
+
+                                    <li><a class="dropdown-item" href="asserts/GRANDHI VANITHA RESUMEE.pdf"  download target="_blank" class="download-btn" title="Download Resume"><i class="fa-solid fa-download"></i> Download</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <h1 class="hero-cer1">Skills</h1>
+        <hr class="horizontal">
+        
+        <!-- Technical Skills Section -->
+        <div class="skill-1">
+            <h2>Technical Skills</h2>
+            <div class="technical">
+                <div class="java" >
+                    <img src="asserts/java.jpg" alt="java">
+                    <p>Java</p>
+                   
+                </div>
+                <div class="python" >
+                    <img src="asserts/python.jpg" alt="python">
+                    <p>Python</p>
+                 
+                </div>
+            </div>
+        </div>
+
+        <!-- Developing Skills Section -->
+        <div class="develop">
+            <h2>Developing Skills</h2>
+            <div class="technical">
+                <div class="html" >
+                    <img src="asserts/html.jpg" alt="html">
+                    <p>HTML</p>
+                   
+                </div>
+                <div class="css" >
+                    <img src="asserts/css.jpg" alt="css">
+                    <p>CSS</p>
+                   
+                </div>
+                <div class="bootstrap" >
+                    <img src="asserts/bs.jpg" alt="bootstrap">
+                    <p>Bootstrap</p>
+                  
+                </div>
+                <div class="javascript" >
+                    <img src="asserts/js.jpg" alt="javascript">
+                    <p>JavaScript</p>
+                  
+                </div>
+                <div class="react" >
+                    <img src="asserts/react.jpg" alt="react">
+                    <p>React JS</p>
+                  
+                </div>
+            </div>
+        </div>
+
+        <!-- Designing Skills Section -->
+        <div class="design">
+            <h2>Designing Skills</h2>
+            <div class="technical">
+                <div class="wordpress" >
+                    <img src="asserts/wordpress.jpg" alt="wordpress">
+                    <p>WordPress</p>
+                  
+                </div>
+                <div class="photoshop" >
+                    <img src="asserts/photoshop.jpg" alt="photoshop">
+                    <p>Adobe Photoshop</p>
+                   
+                </div>
+                <div class="illustrator" >
+                    <img src="asserts/illustartor.jpg" alt="illustrator">
+                    <p>Adobe Illustrator</p>
+                 
+                </div>
+                <div class="figma" >
+                    <img src="asserts/figma.jpg" alt="figma">
+                    <p>Figma</p>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- Soft Skills Section -->
+        <div class="soft">
+            <h2>Soft Skills</h2>
+            <div class="technical">
+                <div class="time-management">
+                    <img src="asserts/time (1).jpg" alt="time management">
+                    <p>Time Management</p>
+                </div>
+                <div class="empathy">
+                    <img src="asserts/emapthi.jpg" alt="empathy">
+                    <p>Empathy</p>
+                </div>
+                <div class="adaptability">
+                    <img src="asserts/ad.jpg" alt="adaptability">
+                    <p>Adaptability</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+    document.body.classList.add('animate-fade-in'); 
+};
+    </script>
+</body>
+</html>
